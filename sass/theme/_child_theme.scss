@@ -11,3 +11,19 @@
 #main-menu-container {
   text-transform: uppercase;
 }
+
+
+
+#wrapper-footer-full {
+  background: rgb(96,74,172);
+  background: linear-gradient(0deg, rgba(96,74,172,1) 0%, rgba(96,74,172,1) 51%, rgba(74,26,240,1) 100%);
+  color: white;
+  a {
+    color: white !important;
+  }
+}
+
+#wrapper-footer {
+  background-color: #554d73;
+  color: white;
+}

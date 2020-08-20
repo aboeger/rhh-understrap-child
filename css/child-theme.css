@@ -11622,6 +11622,18 @@ figure.woocommerce-product-gallery__wrapper {
 #main-menu-container {
   text-transform: uppercase; }
 
+#wrapper-footer-full {
+  background: #604aac;
+  background: -webkit-gradient(linear, left bottom, left top, from(#604aac), color-stop(51%, #604aac), to(#4a1af0));
+  background: linear-gradient(0deg, #604aac 0%, #604aac 51%, #4a1af0 100%);
+  color: white; }
+  #wrapper-footer-full a {
+    color: white !important; }
+
+#wrapper-footer {
+  background-color: #554d73;
+  color: white; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
