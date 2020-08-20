@@ -91,3 +91,18 @@ function topbar4_widgets_init() {
 
 }
 add_action( 'widgets_init', 'topbar4_widgets_init' );
+
+
+
+/**
+ * Google Fonts
+ *
+ */
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap', false );
+
+
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap', false );
+}
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );

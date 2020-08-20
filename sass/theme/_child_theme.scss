@@ -2,8 +2,12 @@
 #top-bar {
   background-color: #4A5A66;
   color: white;
-  padding-left: 30px;
+  text-align: center;
   .topbar-title {
     display: none;
   }
+}
+
+#main-menu-container {
+  text-transform: uppercase;
 }
