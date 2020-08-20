@@ -11621,6 +11621,9 @@ figure.woocommerce-product-gallery__wrapper {
 
 #main-menu-container {
   text-transform: uppercase; }
+  #main-menu-container .navbar-brand {
+    max-width: 200px;
+    height: 100%; }
 
 #wrapper-footer-full {
   background: #604aac;
