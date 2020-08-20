@@ -31,3 +31,63 @@ function add_child_theme_textdomain() {
     load_child_theme_textdomain( 'understrap-child', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
+
+/**
+ * Register our top bar widgets
+ *
+ */
+function topbar1_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Top Bar 1',
+		'id'            => 'top-bar1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<p class="topbar-title">',
+		'after_title'   => '<p>',
+	) );
+
+}
+add_action( 'widgets_init', 'topbar1_widgets_init' );
+
+function topbar2_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Top Bar 2',
+		'id'            => 'top-bar2',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<p class="topbar-title">',
+		'after_title'   => '<p>',
+	) );
+
+}
+add_action( 'widgets_init', 'topbar2_widgets_init' );
+
+function topbar3_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Top Bar 3',
+		'id'            => 'top-bar3',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<p class="topbar-title">',
+		'after_title'   => '<p>',
+	) );
+
+}
+add_action( 'widgets_init', 'topbar3_widgets_init' );
+
+function topbar4_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Top Bar 4',
+		'id'            => 'top-bar4',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<p class="topbar-title">',
+		'after_title'   => '<p>',
+	) );
+
+}
+add_action( 'widgets_init', 'topbar4_widgets_init' );
