@@ -12,7 +12,7 @@ Understrap Child Theme uses the Enqueue method to load and sort the CSS file the
 1. Install the parent theme UnderStrap first: `https://github.com/understrap/understrap`
    - IMPORTANT: If you download UnderStrap from GitHub make sure you rename the "understrap-master.zip" file to "understrap.zip" or you might have problems using this child theme!
 1. Upload the understrap-child folder to your wp-content/themes directory
-1. Go into your WP admin backend 
+1. Go into your WP admin backend
 1. Go to "Appearance -> Themes"
 1. Activate the UnderStrap Child theme
 
@@ -57,3 +57,17 @@ Or, to run with Browser-Sync:
 - then run: `$ gulp watch-bs`
 
 [1] Visit [https://browsersync.io/](https://browsersync.io/) for more information on Browser Sync
+
+Pushing Updates / Releases
+Make And Commit Your Theme Updates Edit your theme, make whatever changes, modifications, additions you need.
+Commit your changes to your local git repo and push those changes to Github.
+
+Update The Version Number in Style.css In your style.css file, increment your version number, as in this example:
+Theme Name: Example
+Theme URI: http://example.com/
+Github Theme URI: https://github.com/username/repo-name Description: My Example Theme Author: person Version: v1.1.0 Commit the change locally and push the change to Github. (And yes, this could have simply been done as part of step #1.
+
+Create a new tag and push the tag Create a tag in git that matches the version number in step #2 and push that tag up to Github:
+$ git tag v1.1.0 $ git push origin v1.1.0
+
+[1] Visit [https://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html] for more information.
