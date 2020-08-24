@@ -44,7 +44,7 @@ defined( 'ABSPATH' ) || exit;
       </div><!-- .entry-content -->
     </div>
     <div class="col-md-6">
-      <?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?>
+      <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
     </div>
 
   </div>
