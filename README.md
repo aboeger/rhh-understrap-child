@@ -68,6 +68,9 @@ Theme URI: http://example.com/
 Github Theme URI: https://github.com/username/repo-name Description: My Example Theme Author: person Version: v1.1.0 Commit the change locally and push the change to Github. (And yes, this could have simply been done as part of step #1.
 
 Create a new tag and push the tag Create a tag in git that matches the version number in step #2 and push that tag up to Github:
-$ git tag v1.1.0 $ git push origin v1.1.0
+
+$ git tag v1.1.0
+
+$ git push origin v1.1.0
 
 [1] Visit [https://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html] for more information.
