@@ -11637,6 +11637,9 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: #554d73;
   color: white; }
 
+#staff-container {
+  margin-bottom: 35px; }
+
 .staff-name {
   color: #146DA0;
   font-family: 'Playfair Display SC';
