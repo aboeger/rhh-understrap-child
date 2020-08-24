@@ -11637,6 +11637,22 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: #554d73;
   color: white; }
 
+.staff-name {
+  color: #146DA0;
+  font-family: 'Playfair Display SC';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.staff-title {
+  color: #A0A1A5;
+  margin: 15px 0px 25px 0px; }
+
+hr.solid {
+  border-top: 3px solid #E89613;
+  width: 200px;
+  margin-left: 0px; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style

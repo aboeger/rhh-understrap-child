@@ -12,9 +12,14 @@ defined( 'ABSPATH' ) || exit;
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<header class="staff-header">
+    <div class="container">
+      <?php the_title( '<h1 class="staff-name">', '</h1>' ); ?>
+      <p class="staff-title">
+        <?php echo do_shortcode('[pods field="staff_title"]'); ?>
+      </p>
+      <hr class="solid">
+    </div>
 
-		<?php the_title( '<h1 class="staff-name">', '</h1>' ); ?>
-    <?php echo do_shortcode('[pods field="staff_title"]'); ?>
 
 
 
