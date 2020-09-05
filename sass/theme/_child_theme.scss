@@ -54,3 +54,13 @@ hr.solid {
   width: 200px;
   margin-left: 0px;
 }
+
+#footer-full-content {
+  text-transform: uppercase;
+  .footer-widget {
+    .menu {
+      list-style: none;
+      padding-left: 5px;
+    }
+  }
+  }
