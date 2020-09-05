@@ -97,7 +97,9 @@ $container = get_theme_mod( 'understrap_container_type' );
   			<?php if ( 'container' == $container ) : ?>
   			</div><!-- .container -->
   			<?php endif; ?>
-        <button type="button" class="btn btn-primary">FREE CONSULATATION</button>
+				<a href="/contact-us">
+        	<button type="button" class="btn btn-primary">FREE CONSULATATION</button>
+				</a>
   		</nav><!-- .site-navigation -->
 
   	</div><!-- #wrapper-navbar end -->
